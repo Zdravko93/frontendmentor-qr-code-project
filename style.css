@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+
+:root {
+    --clr-white: hsl(0, 0%, 100%);
+    --clr-light-gray: hsl(212, 45%, 89%);
+    --clr-grayish-blue: hsl(220, 15%, 55%);
+    --clr-dark-blue: hsl(218, 44%, 22%);
+}
+
+body {
+    background: var(--clr-light-gray);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Outfit', sans-serif;
+}
+
+img,
+.container {
+    border-radius: 12px;
+}
+
+img {
+    display:block;
+    width: 95%;
+    max-width: 90%;
+    margin: 1em auto;
+    height: 60%;    
+}
+
+.container {
+    background: var(--clr-white);
+    text-align: center;
+    margin: auto;
+    max-width: 350px;
+    height: 60vh;
+}
+
+.description {
+    margin: 1.5em auto;
+    max-width: 90%;
+}
+
+.main-title {
+    margin: auto;
+    font-size: 1.5em;
+    color: var(--clr-dark-blue);
+}
+
+.paragraph {
+    padding: 0em 1.8em;
+    color: var(--clr-grayish-blue);
+    font-size: 0.9375em;
+}
